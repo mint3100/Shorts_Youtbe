@@ -5,6 +5,7 @@
 	"description": "유튜브 쇼츠 영상을 일반 영상으로 볼 수 있게 자동으로 리다이렉트 시켜줍니다.",
 	"homepage_url": "https://mintserver.kr/",
 	"icons": {
+		"96": "icons/icon.png"
 	},
 	"background": {
 		"service_worker": "src.js"
