@@ -1,0 +1,20 @@
+{
+	"name": "No Short!",
+	"version": "0.1",
+	"author": "Mint",
+	"description": "유튜브 쇼츠 영상을 일반 영상으로 볼 수 있게 자동으로 리다이렉트 시켜줍니다.",
+	"homepage_url": "https://mintserver.kr/",
+	"icons": {
+	},
+	"background": {
+		"service_worker": "src.js"
+	},
+	"permissions": [     
+		"webRequest",
+		"tabs"
+	],
+	"host_permissions": [
+		"*://www.youtube.com/*"
+	],
+	"manifest_version": 3
+}
